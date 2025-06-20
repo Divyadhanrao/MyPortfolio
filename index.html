@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Divya Dhanrao - Full Stack Developer Portfolio">
+  <meta name="keywords" content="Java, React, Full Stack, Divya Dhanrao, Portfolio">
+  <title>MyPortfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="photo/logo.png" class="logo" width="150px" alt="Logo" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="head-text">
+        <p>Full Stack Developer</p>
+        <h1>Hi, I'm <span>Divya Dhanrao</span><br>From Nashik</h1>
+        <div class="download-resume">
+          <a href="Dhanrao_Divya.pdf" download class="btn">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="photo/photo.png" alt="Divya Dhanrao's Profile Photo" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1><br />
+          <p>Hello, I'm Divya Dhanrao from Nashik, Maharashtra, India. I recently completed my bachelor's degree in Computer Engineering from GES Management Studies and Research, RH Sapat College Of Engineering, Nashik. My passions include programming, and I'm a dedicated Java developer. Java is my favorite programming language. I'm eager to continue developing my skills and making meaningful contributions through Java.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link">Education</p>
+          </div>
+          <div class="tab-content">
+            <ul>
+              <li><span>2024</span><br><strong>B.E. in Computer Engineering</strong><br>RH Sapat College of Engineering, Nashik</li>
+              <li><span>2020</span><br><strong>HSC (Science)</strong><br>Janta Vidyalaya and Junior College, Satpur</li>
+              <li><span>2018</span><br><strong>SSC</strong><br>Annasaheb Vaishampayan Vidyalay</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="skills-section" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <img src="skills/java.png" class="skill-img" alt="Java">
+      <img src="skills/html.png" class="skill-img" alt="HTML">
+      <img src="skills/css.png" class="skill-img" alt="CSS">
+      <img src="skills/js.png" class="skill-img" alt="JavaScript">
+      <img src="skills/react.png" class="skill-img" alt="React">
+      <img src="skills/mysql.png" class="skill-img" alt="MySQL">
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>🄹 Tic Tac Toe Game</h3>
+          <p>A console-based game using C that implements game logic, player turns, and win conditions. Great for improving logic and flow control.</p>
+          <span class="tech-used">C Programming</span>
+        </div>
+        <div class="project-card">
+          <h3>🏦 Bank Account Opening Form</h3>
+          <p>Full-stack web application to register users for bank accounts with form validation and MySQL database integration.</p>
+          <span class="tech-used">React • Node.js • MySQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <h2 class="contact-heading">Contact Me</h2>
+    <div class="contact-form-container">
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">Your Email address</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="copyright">
+  <p>Copyright © Portfolio, by Divya Dhanrao</p>
+</div>
+
+
+</body>
+</html>
